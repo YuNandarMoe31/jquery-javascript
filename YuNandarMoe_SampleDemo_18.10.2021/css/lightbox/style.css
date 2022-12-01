@@ -1,0 +1,32 @@
+.inner {
+  width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  color: #726868;
+}
+
+.ttl {
+  font-size: 30px;
+}
+
+.lightbox-img img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  display: block;
+}
+
+@media screen and (max-width:640px) {
+  .inner {
+    width: 78.125vw;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #726868;
+  }
+
+  .ttl {
+    font-size: 4.688vw;
+  }
+}

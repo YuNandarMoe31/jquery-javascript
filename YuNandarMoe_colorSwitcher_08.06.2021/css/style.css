@@ -1,0 +1,52 @@
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+.clearFix::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+}
+h1 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  margin: 30px 0 30px 0;
+  color: #f4a460;
+  text-align: center;
+}
+.color-switcher {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.paragraph {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #4682b4	;
+}
+.color-switcher li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 0 15px 15px 0;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+.yellow-btn {
+  background: #d3d3d3;
+}
+.orange-btn {
+  background: #87cefa;
+}
+.green-btn {
+  background: #ffa07a;
+}
+.blue-btn {
+  background: #ffe4e1;
+}
+.red-btn {
+  background: #90ee90;
+}

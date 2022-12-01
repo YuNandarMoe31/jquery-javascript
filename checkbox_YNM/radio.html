@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radio Checked Demo</title>
+</head>
+
+<body>
+  <p>Select your size:</p>
+  <div>
+    <input type="radio" name="size" value="XS" id="xs">
+    <label for="xs">XS</label>
+  </div>
+  <div>
+    <input type="radio" name="size" value="S" id="s">
+    <label for="s">S</label>
+  </div>
+  <div>
+    <input type="radio" name="size" value="M" id="m">
+    <label for="m">M</label>
+  </div>
+  <div>
+    <input type="radio" name="size" value="L" id="l">
+    <label for="l">L</label>
+  </div>
+  <div>
+    <input type="radio" name="size" value="XL" id="xl">
+    <label for="xl">XL</label>
+  </div>
+  <div>
+    <input type="radio" name="size" value="XXL" id="xxl">
+    <label for="xxl">XXL</label>
+  </div>
+  <p>
+    <button id="radioBtn">Show Selected Value</button>
+  </p>
+
+  <p id="output"></p>
+
+  <script>
+    const radioBtn = document.querySelector('#radioBtn');
+    const radioButtons = document.querySelectorAll('input[name="size"]');
+    radioBtn.addEventListener("click", () => {
+      let selectedSize;
+      for (const radioButton of radioButtons) {
+        if (radioButton.checked) {
+          selectedSize = radioButton.value;
+          break;
+        }
+      }
+
+      output.innerText = selectedSize ? `You selected ${selectedSize}` : `You haven't selected any size`;
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+#tab-slider  {
+  width: 800px;
+  margin: 0 auto;
+}
+.tab ul {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+.tab li {
+  float: left;
+  list-style-type: none;
+  margin-right: 10px;
+}
+.tab li:last-child {
+  margin-right: 0px;
+}
+.tab li a {
+  display: block;
+  text-decoration: none;
+}
+.tab li img {
+  width: 152px;
+  height: 90px;
+  opacity: 0.5;
+}
+.tab li img.active {
+  opacity: 1;
+}
+.panel {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.panel-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.panel-inner img {
+  width: 800px;
+  height: 400px;
+}
+.panel-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#panel-item1 {
+  left: 0;
+}
+#panel-item2 {
+  left: 800px;
+}
+#panel-item3 {
+  left: 1600px;
+}
+#panel-item4 {
+  left: 2400px;
+}
+#panel-item5 {
+  left: 3200px;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px;
+  color: black;
+  font-weight: bold;
+  border-radius: 0 3px 3px 0;
+  transition: .2s linear;
+}
+a {
+  text-decoration: none;
+}
+.next {
+  right: 226px;
+}
+.prev {
+  left: 226px;
+}
+.next:hover, 
+.prev:hover {
+  opacity: 0.6;
+}

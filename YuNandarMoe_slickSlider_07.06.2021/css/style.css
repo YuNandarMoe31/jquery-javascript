@@ -1,0 +1,12 @@
+.slick-active {
+  opacity: .5;
+}
+.slick-current {
+  opacity: 1;
+}
+.slick-center {
+  transform: scale(1.5);
+}
+.slick-list {
+  padding: 30px !important;
+}

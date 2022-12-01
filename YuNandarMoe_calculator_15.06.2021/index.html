@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <table border="1">
+    <tr>
+      <td><input type="button" value="c" onclick="clr()" class="blue-btn"/></td>
+      <td colspan="3"><input type="text" id="edu"/></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="+" onclick="dis('+')" class="blue-btn" /></td>
+      <td><input type="button" value="1" onclick="dis('1')" class="gray-btn"/></td>
+      <td><input type="button" value="2" onclick="dis('2')" class="gray-btn"/></td>
+      <td><input type="button" value="3" onclick="dis('3')" class="gray-btn"/></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="-" onclick="dis('-')" class="blue-btn"/></td>
+      <td><input type="button" value="4" onclick="dis('4')" class="gray-btn"/></td>
+      <td><input type="button" value="5" onclick="dis('5')" class="gray-btn"/></td>
+      <td><input type="button" value="6" onclick="dis('6')" class="gray-btn"/></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="*" onclick="dis('*')" class="blue-btn"/></td>
+      <td><input type="button" value="7" onclick="dis('7')" class="gray-btn"/></td>
+      <td><input type="button" value="8" onclick="dis('8')" class="gray-btn"/></td>
+      <td><input type="button" value="9" onclick="dis('9')" class="gray-btn"/></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="/" onclick="dis('/')" class="blue-btn"/></td>
+      <td><input type="button" value="." onclick="dis('.')" class="gray-btn"/></td>
+      <td><input type="button" value="0" onclick="dis('0')" class="gray-btn"/></td>
+      <td><input type="button" value="=" onclick="solve()" class="orange-btn"/></td>
+    </tr>
+  </table>
+
+  <script src="js/jquery-2.2.0.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

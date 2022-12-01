@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:600');
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+ul.nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ededed;
+}
+
+.nav .nav-item {
+  padding: 10px 15px;
+  margin-right: 5px;
+  background: #ededed;
+}
+
+.nav .nav-item .nav-link {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav .nav-item .nav-link:hover {
+  color: #fff;
+}
+
+.smooth .smooth-txtbox {
+  margin-top: 30px;
+  padding: 15px 20px;
+  background: #EEE;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+}
+
+.smooth .smooth-txtbox .smooth-ttl {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.pagetop {
+  display: none;
+  position: fixed;
+  width: 80px;
+  bottom: 30px;
+  right: 30px;
+  background: #FF9800;
+  border-radius: 20px;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.pagetop.active {
+  display: block;
+}
+
+.pagetop a {
+  display: block;
+  padding: 10px 5px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}

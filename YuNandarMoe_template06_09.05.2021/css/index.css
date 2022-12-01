@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Hiragino Mincho Pro W3";
+  src: url("../font/copyfonts.com_hiraminpro-w3-opentype.otf");
+  src: local("Hiragino Mincho Pro W3");
+}
+header {
+  background-image: url(../img/top_header_bg.png);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  padding: 10px 0 185px 0;
+}
+.header-ttl {
+  width: 470px;
+  margin-top: 150px;
+}
+.header-txt-happy {
+  margin-top: 28px;
+}
+.content {
+  background-image: url(../img/content_bg.png);
+  background-repeat: no-repeat;
+  padding-top: 74px;
+}
+.main {
+  float: left;
+  width: 722px;
+}
+.image-sec {
+  float: left;
+  margin-bottom: 35px;
+}
+.image-sec img {
+  border: 1px solid #dbdbdb;
+  padding: 6px;
+  background-color: #ffffff;
+}
+.image-sec a:hover {
+  opacity: 0.6;
+}
+.main-sec01 {
+  clear: both;
+  width: 722px;
+  padding: 8px 0 20px 0;
+  border: 1px solid #fde8e8;
+  margin-bottom: 50px;
+  position: relative;
+}
+.sec-container {
+  margin: 10px 20px 0 20px;
+}
+.instruct-sec-txt {
+  float: left;
+  font-size: 12px;
+  color: #646464;
+  line-height: 2;
+}
+.instruct-sec-img {
+  float: right; 
+  position: relative;
+  width: 214px;
+  height: 203px;
+  margin-top: 6px;
+}
+.text-center {
+  position: absolute;
+  font-size: 40px;
+  font-family: "Calibri";
+  color: rgba(255, 255, 255, 0.502);
+  top: 78px;
+  left: 26px;
+}
+.care-sec-img {
+  float: left;
+  width: 214px;
+  height: 203px;
+}
+.care-sec-txt {
+  width: 445px;
+  float: right;
+  font-size: 12px;
+  color: #646464;
+  line-height: 2;
+}
+.menu-sec {
+  margin: 20px 0 0 19px;
+}
+.menu-sec ul li {
+  float: left;
+  margin-right: 17px;
+  position: relative;
+}
+.menu-sec ul li p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  margin-top: 20px;
+}
+.new-tag {
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.menu-sec ul li a:hover,
+.menu-sec-txt:hover p {
+  opacity: 0.6;
+}
+.info-list {
+  width: 690px;
+  margin: 0 auto;
+}
+.info-list ul {
+  margin-top: 16px;
+}
+.info-list li {
+  padding: 9px 0 8px 0;
+  font-size: 12px;
+  color: #333333;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #cdb684;
+}
+.info-list li a {
+  margin-left: 66px;
+  color: #646464;
+}
+.info-list li a:hover {
+  opacity: 0.6;
+}
+.info-list .new-icn::after {
+  content: "NEW";
+  display: inline-block;
+  background-color: #edc64f;
+  width: 40px;
+  font-size: 11px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  color: #ffffff;
+  padding: 3px 0 1px 0;
+  text-align: center;
+  margin-left: 18px;
+}
+.info-list li:last-child {
+  border-bottom: none;
+  padding: 0px;;
+}
+.info-list li:last-child a {
+  color: #ffffff;
+}
+.blog-sec-img {
+  float: left;
+  width: 167px;
+  height: 166px;
+}
+.blog-sec-txt {
+  float: right;
+  width: 494px;
+  font-size: 12px;
+  color: #333333;
+}
+.new-icn02::before {
+  content: "NEW";
+  display: inline-block;
+  background-color: #edc64f;
+  width: 40px;
+  font-size: 11px;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  color: #ffffff;
+  padding: 3px 0 1px 0;
+  text-align: center;
+  margin-right: 5px;
+}
+.blog-txt {
+  margin-top: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cdb684;
+}
+.blog-paragraph {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.main-sec02 {
+  width: 722px;
+  padding: 8px 0 16px 0;
+  border: 1px solid #fde8e8;
+  margin-bottom: 45px;
+  position: relative;
+}
+.access-sec {
+  margin: 10px 24px 0 16px;
+}
+.address-txt {
+  width: 326px;
+  float: left;
+}
+.address-ttl {
+  font-size: 14px;
+  color: #333333;
+  letter-spacing: 1.2px;
+  margin-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cdb684;
+}
+.address-list {
+  background-image: url(../img/top_access_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 108px;
+}
+.address-list table tr th {
+  width: 73px;
+  padding-top: 8px;
+  font-size: 14px;
+  color: #333333;
+  text-align: left;
+}
+.address-list table tr td {
+  width: 260px;
+  padding-top: 8px;
+  font-size: 14px;
+  color: #333333;
+  text-align: left;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+.address-map {
+  float: right;
+  margin-top: 8px;
+}
+
+

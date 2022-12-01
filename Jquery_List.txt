@@ -1,0 +1,76 @@
+/*** Pagetop Scroll Jquery Code ***/
+https://codepen.io/kruxor/pen/CwpFq
+https://codepen.io/airwin1391/pen/XepogN
+https://codepen.io/michalwyrwa/pen/GBaPPj
+https://codepen.io/DominicFrancois/pen/ActGj
+https://codepen.io/rdallaire/pen/apoyx?editors=1010
+https://codepen.io/matthewcain/pen/ZepbeR?editors=1010
+
+/*** Accordion Jquery code ****/
+http://jsfiddle.net/XrGU8/4/
+https://jsfiddle.net/nikdtu/kbfhb8ea/
+https://codepen.io/JBreit/pen/ihuHa
+https://codepen.io/blbwd/pen/KoqVzM
+https://codepen.io/trobes/pen/PXyOMz
+https://codepen.io/brenden/pen/Kwbpyj
+https://codepen.io/pkpalash/pen/GMrxjm
+https://jsfiddle.net/farhan2056/96k1zndr/4/
+https://codepen.io/calebnance/pen/nbwGh
+https://codepen.io/yukinouz1/pen/Mdxqqx
+https://codepen.io/vikasverma93/pen/raxGaM/
+https://codepen.io/cssnagarajan/pen/PqRpwW
+https://codepen.io/Ravyre/pen/bYQOMx?editors=0010
+
+/*** Slider Jquery code ****/
+https://codepen.io/bkainteractive/pen/VLxLYp
+https://codepen.io/code_css_js_archive/pen/doWdqv
+https://stackoverflow.com/questions/46937384/making-responsive-slider-with-bxsliders-minslide-and-maxslide
+
+/*** Jquery Slide Menu ***/
+https://codepen.io/novae/pen/Ddnwh
+https://codepen.io/g13nn/pen/eHGEF
+https://codepen.io/r-i-c-h/pen/NQaemJ
+https://codepen.io/mewxu/pen/rgNWWO
+https://codepen.io/maxivan/pen/mdyVzXd
+https://codepen.io/kasia-paszko/pen/povBGmm
+https://codepen.io/mewxu/pen/rgNWWO?editors=1010
+https://codepen.io/PSBlakemore/pen/avzvgO?editors=0110
+
+/*** Modal Popup ***/
+https://codepen.io/nastasia/pen/MymbOW
+https://codepen.io/designcouch/pen/obvKxm
+https://codepen.io/eimg/pen/QWErPpj
+
+/***Simple "Load More" - CodePen***/
+https://codepen.io/rrkt/pen/YzzoorK
+https://codepen.io/Tigran_91/pen/JyaZPz
+https://codepen.io/elmahdim/pen/sGkvH
+https://codepen.io/umairrazzaq/pen/zzOMxB
+https://codepen.io/legendaryPower/pen/dvJQvB
+https://codepen.io/web-design-with-chris/pen/JOXjEg/
+
+/*** Header Fix On Scroll Jquery Code***/
+https://codepen.io/jgx/pen/wiIGc
+https://codepen.io/haykou/pen/FHKJg
+https://codepen.io/mischuk/pen/hoGLB
+https://codepen.io/JGallardo/pen/lJoyk
+https://codepen.io/syedrafeeq/pen/sDnKg
+
+/*** Tabs Jquery Code***/
+https://codepen.io/hami/pen/NNqYXq
+https://codepen.io/cssjockey/pen/jGzuK
+https://codepen.io/aaron170/pen/wbdGq
+https://codepen.io/DobsonDev/pen/ByaNZd
+https://codepen.io/jenningscreate/pen/odKVed
+
+/*** SLider Plugin Lists ***/
+https://splidejs.com/
+https://swiperjs.com/demos
+https://glidejs.com/docs/
+https://bxslider.com/
+https://pgwjs.com/pgwslider/
+https://owlcarousel2.github.io/OwlCarousel2/demos/responsive.html
+https://www.jqueryscript.net/demo/Fully-Responsive-Flexible-jQuery-Carousel-Plugin-slick/
+https://wowslider.com/demos.html
+http://flexslider.woothemes.com/
+

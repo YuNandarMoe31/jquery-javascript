@@ -1,0 +1,36 @@
+body {
+	font-family: Arial;
+  height: 1000px;
+}
+.container {
+  background:#fafafa;
+  width:80%;
+  margin:20px auto 2em;
+  box-sizing:border-box;
+  padding:20px;
+  border:1px solid #e0e0e0;
+  border-radius:5px 5px 0 0;
+}
+.text {
+  line-height:1.6em;
+	color:#424242;
+}
+h1 {
+  font-size:2em;
+	color:#F44336;
+  margin-bottom:.5em;
+	padding-bottom:.5em;
+  border-bottom:1px solid #e0e0e0;
+	font-weight: bold;
+}
+.go-top {
+  right:1em;
+  bottom:2em;
+  color:#FAFAFA;
+  text-decoration:none;
+  background:#F44336;
+  padding:5px;
+  border-radius:5px;
+  border:1px solid #e0e0e0;
+  position:fixed;
+}

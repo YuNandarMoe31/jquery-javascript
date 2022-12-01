@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+  <section>
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="card-head col-md-12">
+            <h4 class="card-title d-flex mb-0">
+              <i class="bx bx-check font-medium-5 pl-25 pr-75"></i>Language
+            </h4>
+            <div class="form-group"> 
+              <ul class="list-unstyled mb-0 mt-md-2 float-md-start">
+                <li class="d-inline-block me-2 mb-1">
+                  <div class="form-check">
+                    <div class="checkbox">
+                      <input type="checkbox" id="langMm" class="form-check-input lang-control" data-lang=".mm-control" checked value="MM">
+                      <label for="langMm">Myanmar</label>
+                    </div>
+                  </div>
+                </li>
+                <li class="d-inline-block me-2 mb-1">
+                  <div class="form-check">
+                    <div class="checkbox">
+                      <input type="checkbox" id="langJp" class="form-check-input lang-control" data-lang=".jp-control" checked>
+                      <label for="langJp">Japan</label>
+                    </div>
+                  </div>
+                </li>
+                <li class="d-inline-block me-2 mb-1">
+                  <div class="form-check">
+                    <div class="checkbox">
+                      <input type="checkbox" id="langEn" class="form-check-input lang-control" data-lang=".en-control" checked>
+                      <label for="langEn">English</label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="">Post အမည်</label>
+              <div class="row">
+                <div class="col-md-4 mm-control">
+                  <input type="text" class="form-control mm-input" id="" placeholder="Post အမည်">
+                </div>
+                <div class="col-md-4 jpTxt jp-control">
+                  <input type="text" class="form-control jp-input col-md-4" id="" placeholder="投稿名">
+                </div>
+                <div class="col-md-4 enTxt en-control">
+                  <input type="text" class="form-control en-input col-md-4" id="" placeholder="Post Title">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Description</label>
+              <div class="row">
+                <div class="col-md-4 mm-control">
+                  <textarea class="form-control mm-input" id="description" rows="3"></textarea>
+                </div>
+                <div class="col-md-4 jp-control">
+                  <textarea class="form-control jp-input" id="description" rows="3"></textarea>
+                </div>
+                <div class="col-md-4 en-control">
+                  <textarea class="form-control en-input" id="description" rows="3"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Technology List (<i class="text-xs">separate by comma</i>)</label>
+
+              <div class="row">
+                <div class="col-md-4 mm-control">
+                  <input type="text" class="form-control mm-input col-md-4" id="" placeholder="PHP, NodeJs">
+                </div>
+                <div class="col-md-4 jp-control">
+                  <input type="text" class="form-control jp-input col-md-4" id="" placeholder="PHP, NodeJs">
+                </div>
+                <div class="col-md-4 en-control">
+                  <input type="text" class="form-control en-input col-md-4" id="" placeholder="PHP, NodeJs">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Portfolio Image</label>
+              <div class="row">
+                <div class="col-md-4">
+                  <input type="file" class="form-file-input" id="customFile">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="">Infrastructure</label>
+              <div class="row">
+                <div class="col-md-4 mm-control">
+                  <input type="text" id="" class="form-control mm-input" placeholder="GMO cloud">
+                </div>
+                <div class="col-md-4 jp-control">
+                  <input type="text" id="" class="form-control jp-input" placeholder="GMO cloud">
+                </div>
+                <div class="col-md-4 en-control">
+                  <input type="text" id="" class="form-control en-input" placeholder="GMO cloud">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Development Time</label>
+              <div class="row">
+                <div class="col-md-4 mm-control">
+                  <input type="text" id="" class="form-control mm-input" placeholder="2weeks">
+                </div>
+                <div class="col-md-4 jp-control">
+                  <input type="text" id="" class="form-control jp-input" placeholder="2weeks">
+                </div>
+                <div class="col-md-4 en-control">
+                  <input type="text" id="" class="form-control en-input" placeholder="2weeks">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Development Scale</label>
+              <div class="row">
+                <div class="col-md-4 mm-control">
+                  <input type="text" id="" class="form-control mm-input" placeholder="1person/month">
+                </div>
+                <div class="col-md-4 jp-control">
+                  <input type="text" id="" class="form-control jp-input" placeholder="1person/month">
+                </div>
+                <div class="col-md-4 en-control">
+                  <input type="text" id="" class="form-control en-input" placeholder="1person/month">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="">Work</label>
+              <div class="row">
+                <div class="col-md-4 mm-control">
+                  <input type="text" id="" class="form-control mm-input" placeholder="PHP mail form, smartphone responsive, jQuery slider, animation">
+                </div>
+                <div class="col-md-4 jp-control">
+                  <input type="text" id="" class="form-control jp-input" placeholder="PHP mail form, smartphone responsive, jQuery slider, animation">
+                </div>
+                <div class="col-md-4 en-control">
+                  <input type="text" id="" class="form-control en-input" placeholder="PHP mail form, smartphone responsive, jQuery slider, animation">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- myanmar /.card -->
+  </section>
+
+  <script src="js/jquery-2.2.0.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>

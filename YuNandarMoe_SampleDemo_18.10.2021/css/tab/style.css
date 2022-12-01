@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Nav tabs*/
+h1 {
+  font-size: 32px;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tabs-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs-nav li {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.78);
+  color: #fefefe;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #34495E;
+  margin-right: 5px;
+  width: 8%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.tabs-nav a {
+  display: block;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Active tab */
+
+.tabs-nav li.active {
+  background: #FFF;
+  color: #000;
+}
+
+.tabs-nav li.active a {
+  color: inherit;
+}
+/* Tab content */
+
+.tabs-content {
+  border: 1px solid #34495E;
+  padding: 10px;
+  background: #FFF;
+  margin-top: -1px;
+  overflow: hidden;
+}
+
+.tabs-content img {
+  margin-right: 10px;
+}
+
+.tabs-content p {
+  font-size: 16px;
+}
+
+.tabs-content h3 {
+  font-size: 18px;
+}
+/* Hide all but first content div */
+
+.tabs-content div:not(:first-child) {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .tabs-nav a {
+    padding: 1.042vw 0;
+    font-size: 1.667vw;
+  }
+
+  .tabs-content p {
+    font-size: 1.667vw;
+  }
+
+  .tabs-content h3 {
+    font-size: 1.875vw;
+  }
+
+  h1 {
+    font-size: 3.333vw;
+  }
+}

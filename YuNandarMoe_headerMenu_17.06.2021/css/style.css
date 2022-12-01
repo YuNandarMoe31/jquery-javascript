@@ -1,0 +1,35 @@
+/* Accordion */
+.accordion-item{
+  border-radius: calc(.25rem - 1px) !important;
+  border: 1px solid rgba(0, 0, 0, .125) !important;
+}
+
+.accordion-button{
+  padding: 0.8rem 1.25rem;
+}
+
+.accordion-button,
+.accordion-button:not(.collapsed){
+  background-color: #f6f7f7;
+  color: rgba(35, 28, 99, .7);
+  border: 1px solid #dcdcde;
+  box-shadow:none;
+}
+
+.accordion-button:focus:not(:focus-visible){
+  box-shadow:none;
+  border: 1px solid #dcdcde;
+}
+
+.accordion-button:after {
+  display: inline-block;
+  content: "";
+  border-top: .7em solid;
+  border-right: .5em solid transparent;
+  border-bottom: 0;
+  border-left: .5em solid transparent;
+  background: none;
+  color: rgb(120,124,130);
+  width: 0;
+  height: 0;
+}

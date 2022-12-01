@@ -1,0 +1,30 @@
+body {
+  width: 800px;
+  margin: 50px auto;
+  padding: 0;
+}
+input[type="button"] {
+  border-radius: 5px; 
+  width: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+input[type="text"] {
+  border-radius: 5px;
+  text-align: right;
+  background-color: #fff;
+  border-color: #000 ;
+  width: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blue-btn {
+  background-color: #6294e0;
+  color: #fff;
+}
+.gray-btn {
+  background-color: #d7dce4;
+  color: #000;
+}
+.orange-btn {
+  background-color: #eb8525;
+  color: #000;
+}

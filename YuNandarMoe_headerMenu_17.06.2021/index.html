@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Menu</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section>
+    <div class="card">
+      <div class="card-body">
+        <div class="row">
+          <div class="card-head col-md-12">
+            <div class="form-group">
+              <div class="col-md-6 float-md-start">
+                <div class="form-group">
+                  <label for="">Select a menu to edit</label>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <select class="form-select" id="menu">
+                        <option>Header Menu EN</option>
+                        <option>Header Menu JP</option>
+                        <option>Header Menu MM</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2 px-1">
+                      <a href="#" class="btn btn-secondary">Select</a>
+                    </div>
+                    <div class="col-md-2 px-1">
+                      <a href="#" class="btn btn-danger">Delete</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-end pt-4">
+                <a href="#" class="btn btn-secondary text-right">Add Menu</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <div class="row">
+                <div class="col-md-12 py-1 px-4">
+                  <div class="form-check">
+                    <input type="checkbox" id="page03" class="form-check-input lang-control" data-lang=".jp-control">
+                    <label for="page03">Page 03</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 py-1 px-4">
+                  <div class="form-check">
+                    <input type="checkbox" id="page04" class="form-check-input lang-control" data-lang=".jp-control">
+                    <label for="page04">Page 04</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 py-1 px-4">
+                  <div class="form-check">
+                    <input type="checkbox" id="page05" class="form-check-input lang-control" data-lang=".jp-control">
+                    <label for="page05">Page 05</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 py-1 px-4">
+                  <div class="form-check">
+                    <input type="checkbox" id="page06" class="form-check-input lang-control" data-lang=".jp-control">
+                    <label for="page06">Page 06</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 py-1 px-4">
+                  <div class="form-check">
+                    <input type="checkbox" id="page07" class="form-check-input lang-control" data-lang=".jp-control">
+                    <label for="page07">Page 07</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 py-1 px-4">
+                  <div class="form-check">
+                    <input type="checkbox" id="page08" class="form-check-input lang-control" data-lang=".jp-control">
+                    <label for="page08">Page 08</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 py-1 px-4">
+                  <div class="form-check">
+                    <input type="checkbox" id="customPost" class="form-check-input lang-control" data-lang=".jp-control">
+                    <div class="col-md-9 float-md-start">
+                      <input type="text" class="form-control" name="id" id="" placeholder="Custom Page">
+                    </div>
+                    <label for="" class="px-2 py-2 mb-0">(<i class="text-xs">Custom Page</i>)</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 py-1 px-4 text-center">
+                  <a href="#" class="btn btn-secondary addToMenu" id="button">Add to Menu<i data-feather="arrow-right" class="ms-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6"> 
+            <div class="form-group">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item col-md-10 my-1">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Page 01
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <label for="">URL</label>
+                            <div class="col-md-12">
+                              <input type="text" id="" class="form-control" placeholder="https://">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <label for="">Navigation Label</label>
+                            <div class="col-md-12">
+                              <input type="text" id="" class="form-control" placeholder="Navigation Label">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <div class="row">
+                              <div class="col-md-2 px-2">
+                                <a href="#" class="color-danger text-decoration-underline">Remove</a>
+                              </div>
+                              <div class="col-md-1">|</div>
+                              <div class="col-md-2 px-2">
+                                <a href="#" class="color-primary text-decoration-underline">Cancel</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item col-md-10 my-1">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Page 02
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <label for="">URL</label>
+                            <div class="col-md-12">
+                              <input type="text" id="" class="form-control" placeholder="https://">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <label for="">Navigation Label</label>
+                            <div class="col-md-12">
+                              <input type="text" id="" class="form-control" placeholder="Navigation Label">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <div class="row">
+                              <div class="col-md-2 px-2">
+                                <a href="#" class="color-danger text-decoration-underline">Remove</a>
+                              </div>
+                              <div class="col-md-1">|</div>
+                              <div class="col-md-2 px-2">
+                                <a href="#" class="color-primary text-decoration-underline">Cancel</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item col-md-10 my-1">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Page 09
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <label for="">URL</label>
+                            <div class="col-md-12">
+                              <input type="text" id="" class="form-control" placeholder="https://">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <label for="">Navigation Label</label>
+                            <div class="col-md-12">
+                              <input type="text" id="" class="form-control" placeholder="Navigation Label">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <div class="row">
+                              <div class="col-md-2 px-2">
+                                <a href="#" class="color-danger text-decoration-underline">Remove</a>
+                              </div>
+                              <div class="col-md-1">|</div>
+                              <div class="col-md-2 px-2">
+                                <a href="#" class="color-primary text-decoration-underline">Cancel</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item col-md-10 my-1">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Page 10
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <label for="">URL</label>
+                            <div class="col-md-12">
+                              <input type="text" id="" class="form-control" placeholder="https://">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <label for="">Navigation Label</label>
+                            <div class="col-md-12">
+                              <input type="text" id="" class="form-control" placeholder="Navigation Label">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12 py-1">
+                          <div class="form-group">
+                            <div class="row">
+                              <div class="col-md-2 px-2">
+                                <a href="#" class="color-danger text-decoration-underline">Remove</a>
+                              </div>
+                              <div class="col-md-1">|</div>
+                              <div class="col-md-2 px-2">
+                                <a href="#" class="color-primary text-decoration-underline">Cancel</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+  
+  <script src="js/Sortable.min.js"></script>
+  <script src="js/feather.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/jquery-2.2.0.min.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+/* mainvisual */
+.mainvisual {
+  background-color: #65696e;
+  padding: 100px 0;
+}
+
+.mv-txt h2 {
+  font-size: 70px;
+  font-family: "Open Sans Extrabold";
+  color: #3e3632;
+}
+
+.orange-txt {
+  color: #3e3632;
+}
+
+.mv-txt p {
+  font-size: 25px;
+  font-family: "Open Sans Regular";
+  color: #3e3632;
+  margin-bottom: 45px;
+}
+
+.mv-btn .btn {
+  max-width: 210px;
+  width: 100%;
+  padding: 12px 0;
+  font-size: 16px;
+  font-family: "Open Sans Semibold";
+  color: #3e3632;
+  border: 1px solid #c6cbd1;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.mv-btn .btn:hover {
+  background-color: #3e3632;
+  color: #fff;
+}
+
+/* popup box */
+.mainvisual .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.mainvisual .overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 999;
+}
+
+.popup {
+  margin: 0 auto;
+  padding: 30px 20px;
+  background: #fff;
+  text-align: center;
+  width: 56.6%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.popup h2 {
+  margin-top: 0;
+  font-size: 35px;
+  font-family: "Open Sans Semibold";
+  color: #424242;
+}
+
+.popup .close {
+  position: absolute;
+  top: -16px;
+  right: -8px;
+  transition: all 200ms;
+  font-size: 16px;
+  font-family: "Open Sans Bold";
+  text-decoration: none;
+  color: #fff;
+  background-color: #3b434c;
+  border-radius: 50%;
+  width: 38px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  font-size: 16px;
+  font-family: "Open Sans Regular";
+  color: #424242;
+}
+
+.form-control {
+  font-size: 16px;
+  font-family: "Open Sans Light";
+  color: #3b434c;
+  border-radius: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+.hire-btn {
+  max-width: 555px;
+  margin: 0 auto;
+}
+
+.hire-btn .btn {
+  width: 100%;
+  padding: 6px 0;
+  background-color: #3e3632;
+  font-size: 16px;
+  font-family: "Open Sans Semibold";
+  color: #fff;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .popup h2 {
+    font-size: 4.688vw;
+  }
+
+  .popup .content {
+    font-size: 2.188vw;
+  }
+
+  .form-control {
+    font-size: 2.031vw;
+    border-radius: 1.563vw;
+  }
+
+  .hire-btn .btn {
+    padding: 0.625vw 0;
+    font-size: 2.188vw;;
+    border-radius: 1.563vw;
+  }
+
+  .popup {
+    padding: 3.125vw;
+    width: 70%;
+  }
+
+  .mv-txt h2 {
+    font-size: 7.813vw;
+  }
+
+  .mv-txt p {
+    font-size: 3.125vw;
+  }
+
+  .mv-btn .btn {
+    max-width: 32.813vw;
+    padding: 1.875vw 0;
+    font-size: 2.500vw;
+  }
+
+  .popup .close {
+    top: -2.500vw;
+    right: -1.250vw;
+    font-size: 2.500vw;
+    width: 5.938vw;
+    padding: 1.250vw 0;
+  }
+}
